@@ -91,7 +91,20 @@ return str;
     // Number: 0
     // TOTAL ENDED --- The total is 27.
     public static void sums(){
+int sum = 0;
+int input = -1;
+
+    Scanner number = new Scanner(System.in);
+System.out.println("I will add up the numbers you give me till you enter zero ");
+    while (input != 0) {
+        input = number.nextInt();
+        sum += input;
+        System.out.println("The total so far is: " + sum);
     }
+    System.out.println("TOTAL ENDED --- The total is " + sum);
+} 
+    
+
 
     public static void main(String[] args) {
         // Add code to help test your methods here
@@ -108,6 +121,10 @@ System.out.println("");
       System.out.println("~~~~Testing Third Method~~~");
       System.out.println("");
       System.out.println(stringZ("zHelzzzzzloz"));
+      System.out.println("");
+      System.out.println("~~~~Testing Fourth Method~~~");
+      System.out.println("");
+     sums();
     }
     
 }
