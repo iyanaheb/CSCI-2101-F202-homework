@@ -172,7 +172,7 @@ if (balance >= 10000) {
         System.out.println("Current Rate is: "+rate+"%");
         System.out.println("Current Period is: "+annum+" times per year");
         System.out.println("Selected Time is: "+time+" years");
-        System.out.println("Compound Interest after  " + time + " years: $" + compinterest);
+        System.out.println("Compound Interest after " + time + " years: $" + compinterest);
         System.out.println("Amount after " + time + " years: $" + roundedamount);
     }
 
@@ -248,12 +248,13 @@ if (balance >= 10000) {
         }else if (choice == 0) {
             System.out.println("Thank you for using the Bank Account Menu");
         } else { // this would catch 69420
-            System.out.println("Invalid Choice");
+            System.out.println("Invalid Choice!");
             // interact(account);
         }
 
 // the savings account method
 
-    
+
+
 }
 }
