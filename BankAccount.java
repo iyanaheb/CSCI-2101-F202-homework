@@ -172,7 +172,7 @@ if (balance >= 10000) {
         System.out.println("Current Rate is: "+rate+"%");
         System.out.println("Current Period is: "+annum+" times per year");
         System.out.println("Selected Time is: "+time+" years");
-        System.out.println("Compound Interest after " + time + " years: $" + compinterest);
+        System.out.println("Compound Interest after  " + time + " years: $" + compinterest);
         System.out.println("Amount after " + time + " years: $" + roundedamount);
     }
 
