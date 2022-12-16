@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-
+// testing testing
     //NOTE: DO NOT change anything in the boiler plate
     //If I added default code it is meant to be there
     //and should not be adjusted unless otherwise noted
@@ -116,7 +116,7 @@ System.out.println("I will add up the numbers you give me till you enter zero ")
 System.out.println("");
        System.out.println("~~~~Testing Second Method~~~");
       System.out.println("");
-       System.out.println(stringTimes("bangbang",2));
+       System.out.println(stringTimes("hellohello",2));
        System.out.println("");
       System.out.println("~~~~Testing Third Method~~~");
       System.out.println("");
