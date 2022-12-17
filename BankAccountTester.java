@@ -11,11 +11,7 @@ public class BankAccountTester {
         System.out.println(gregChecking.getBalance());
         newChecking.deposit(100);
         System.out.println(newChecking.getBalance());
-   
-
-    
- 
-
+  
         BankAccount.interact(gregChecking);
         
 

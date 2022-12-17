@@ -62,7 +62,7 @@ public class Medals {
 
         System.out.println("        Country    Gold    Silver    Bronze   Total");
 
-        // Print countries, counts, and row totals (IE total medals by country)
+      
         for (int i = 0; i < COUNTRIES; i++) {
             System.out.printf("%15s", countries[i]);
             int rowTotal = 0;
@@ -73,7 +73,7 @@ public class Medals {
             System.out.printf("%8d\n", rowTotal);
         }
 
-        // Display the total medals of each medal class
+        
         ArrayList<Integer> medalCounts = new ArrayList<>();
         for (int i = 0; i < MEDALS; i++) {
             int colTotal = 0;
